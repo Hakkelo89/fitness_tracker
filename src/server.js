@@ -1,7 +1,7 @@
 const express = require("express");
 
 const { connect } = require("./db");
-const routes = require("./routes");
+// const routes = require("./routes");
 
 const PORT = process.env.PORT || 4000;
 
@@ -13,7 +13,7 @@ app.use(express.json());
 app.use(express.static("public"));
 
 // router
-app.use(routes);
+// app.use(routes);
 
 // connect to database and start server
 const init = async () => {
