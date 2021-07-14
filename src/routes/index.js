@@ -1,11 +1,11 @@
 const { Router } = require("express");
 
-const apiRoutes = require("./api");
-const viewRoutes = require("./view");
+const api = require("./api");
+const html = require("./html");
 
 const router = Router();
 
-router.use("/api", apiRoutes);
-router.use("/", viewRoutes);
+router.use("/api", api);
+router.use("/", html);
 
 module.exports = router;
