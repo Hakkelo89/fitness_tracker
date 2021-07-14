@@ -12,7 +12,7 @@ const getAllWorkouts = async (req, res) => {
 };
 
 // find current workout by id to update in database
-const changeWorkout = async (req, res) => {
+const updateWorkout = async (req, res) => {
   try {
     const workoutData = await Workout.findByIdAndUpdate(req.params.id, {
       $push: { exercises: req.body },
@@ -36,7 +36,7 @@ const createWorkout = async (req, res) => {
 };
 
 // get workouts for stats page
-const getWorkoutRange = async (req, res) => {
+const getAggregatedWorkout = async (req, res) => {
   try {
     const workoutData = await Workout.find();
     return res.status(200).json(workoutData);
@@ -48,7 +48,7 @@ const getWorkoutRange = async (req, res) => {
 
 module.exports = {
   getAllWorkouts,
-  changeWorkout,
+  updateWorkout,
   createWorkout,
-  getWorkoutRange,
+  getAggregatedWorkout,
 };
