@@ -29,9 +29,9 @@ Fitness Tracker application to track the distance, duration, and exercises of a 
 
 # Screenshot :
 
-| Fitness Tracker Home Page                            | Workout Dashboard                                                       |
-| ---------------------------------------------------- | ----------------------------------------------------------------------- |
-| ![Fitness Tracker](public/images/FitnessTracker.png) | ![Fitness Tracker Dashboard](public/images/FitnessTrackerDashboard.png) |
+| Fitness Tracker Home Page                                  | Workout Dashboard                                                             |
+| ---------------------------------------------------------- | ----------------------------------------------------------------------------- |
+| ![Fitness Tracker](./src/public/images/FitnessTracker.png) | ![Fitness Tracker Dashboard](./src/public/images/FitnessTrackerDashboard.png) |
 
 # User Story
 
