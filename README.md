@@ -11,7 +11,6 @@ Fitness Tracker application to track the distance, duration, and exercises of a 
 - [Fitness Tracker](#fitness-tracker)
 - [Description](#description)
 - [Table of Contents](#table-of-contents)
-- [Deployed Website:](#deployed-website)
 - [Screenshot :](#screenshot-)
 - [User Story](#user-story)
 - [Business Context](#business-context)
@@ -22,8 +21,6 @@ Fitness Tracker application to track the distance, duration, and exercises of a 
 - [License](#license)
 - [Contribution](#contribution)
 - [Questions](#questions)
-
-# Deployed Website:
 
 [Fitness Tracker](https://powerful-lake-63027.herokuapp.com/?id=60f2a3bae87aeb00205a0d1b)
 
